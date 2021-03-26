@@ -45,89 +45,34 @@ The screenshot includes the test coverage results associated with the new/change
 ## Feature PEM
 
 ### Subgroup
- - Nome, istID, githubID
-   + Issues assigned: [#1](https://github.com), [#3](https://github.com)
- - Nome, istID, githubID
-   + Issues assigned: [#2](https://github.com), [#4](https://github.com)
+ - Vasco Piussa, 93762, VascoPiussa
+   + Issues assigned: [#16](https://github.com), [#8](https://github.com), [#32](https://github.com), [#33](https://github.com), [#18](https://github.com), [#35](https://github.com), [#41](https://github.com), [#23](https://github.com)
+ - João Cruz, 90731, joaoccruz
+   + Issues assigned: [#4](https://github.com), [#6](https://github.com), [#5](https://github.com), [#20](https://github.com), [#17](https://github.com), [#18](https://github.com), [#26](https://github.com), [#42](https://github.com)
  
 ### Pull requests associated with this feature
 
 The list of pull requests associated with this feature is:
 
- - [PR #000](https://github.com)
- - [PR #001](https://github.com)
- - [PR #002](https://github.com)
-
+ - [PR #0#44](https://github.com)
 
 ### New/Updated domain entities
 
 #### New entities
- - [EntityName0](https://github.com)
- - [EntityName1](https://github.com)
 
 #### Entities changed
- - [EntityName2](https://github.com)
-   + Added field `fieldName1`
-   + Added field `fieldName2`
  
 ### Feature testing
 
 We define one success tests one insuccess test, and tests for invalid input. The direct links to these are:
 
- - [CreateExternalCourseExecutionServiceSpockTest.groovy](https://github.com/socialsoftware/quizzes-tutor/blob/31ba9bd5f5ddcbab61f1c4b2daca7331ad099f98/backend/src/test/groovy/pt/ulisboa/tecnico/socialsoftware/tutor/administration/service/CreateExternalCourseExecutionServiceSpockTest.groovy)
-    + [Success test #0](https://github.com/socialsoftware/quizzes-tutor/blob/31ba9bd5f5ddcbab61f1c4b2daca7331ad099f98/backend/src/test/groovy/pt/ulisboa/tecnico/socialsoftware/tutor/administration/service/CreateExternalCourseExecutionServiceSpockTest.groovy#L39)
-    + [Insuccess test #0](https://github.com/socialsoftware/quizzes-tutor/blob/31ba9bd5f5ddcbab61f1c4b2daca7331ad099f98/backend/src/test/groovy/pt/ulisboa/tecnico/socialsoftware/tutor/administration/service/CreateExternalCourseExecutionServiceSpockTest.groovy#L104)
-    + [Tests for invalid input](https://github.com/socialsoftware/quizzes-tutor/blob/31ba9bd5f5ddcbab61f1c4b2daca7331ad099f98/backend/src/test/groovy/pt/ulisboa/tecnico/socialsoftware/tutor/administration/service/CreateExternalCourseExecutionServiceSpockTest.groovy#L145)
-
+ - [CreateQuestionTest.groovy](https://github.com/socialsoftware/quizzes-tutor/blob/31ba9bd5f5ddcbab61f1c4b2daca7331ad099f98/backend/src/test/groovy/pt/ulisboa/tecnico/socialsoftware/tutor/administration/service/CreateExternalCourseExecutionServiceSpockTest.groovy)
+ - [RemoveQuestionTest.groovy](https://github.com/tecnico-softeng/es21-g23/blob/pem/backend/src/test/groovy/pt/ulisboa/tecnico/socialsoftware/tutor/question/service/RemoveQuestionTest.groovy)
+ - [UpdateQuestionTest.groovy](https://github.com/tecnico-softeng/es21-g23/blob/pem/backend/src/test/groovy/pt/ulisboa/tecnico/socialsoftware/tutor/question/service/UpdateQuestionTest.groovy) 
+ - [ImportExportMultipleChoiceQuestionsTest.groovy](https://github.com/tecnico-softeng/es21-g23/blob/pem/backend/src/test/groovy/pt/ulisboa/tecnico/socialsoftware/tutor/impexp/service/ImportExportMultipleChoiceQuestionsTest.groovy) 
 
 ### Test Coverage Screenshot
 
 The screenshot includes the test coverage results associated with the new/changed entities:
 
 ![Test Coverage Screenshot](https://web.tecnico.ulisboa.pt/~joaofernandoferreira/1920/ES/coverage_ex1.png)
-
-
----
-
-
-## Feature PCI
-
-### Subgroup
- - Nome, istID, githubID
-   + Issues assigned: [#1](https://github.com), [#3](https://github.com)
- - Nome, istID, githubID
-   + Issues assigned: [#2](https://github.com), [#4](https://github.com)
- 
-### Pull requests associated with this feature
-
-The list of pull requests associated with this feature is:
-
- - [PR #000](https://github.com)
- - [PR #001](https://github.com)
- - [PR #002](https://github.com)
-
-
-### New/Updated domain entities
-
-#### New entities
- - [EntityName0](https://github.com)
- - [EntityName1](https://github.com)
-
-#### Entities changed
- - [EntityName2](https://github.com)
-   + Added field `fieldName1`
-   + Added field `fieldName2`
- 
-### Feature testing
-
-We define one success test, one insuccess test, and tests for invalid input. The direct links to these are:
-
- - [CreateExternalCourseExecutionServiceSpockTest.groovy](https://github.com/socialsoftware/quizzes-tutor/blob/31ba9bd5f5ddcbab61f1c4b2daca7331ad099f98/backend/src/test/groovy/pt/ulisboa/tecnico/socialsoftware/tutor/administration/service/CreateExternalCourseExecutionServiceSpockTest.groovy)
-    + [Success test #0](https://github.com/socialsoftware/quizzes-tutor/blob/31ba9bd5f5ddcbab61f1c4b2daca7331ad099f98/backend/src/test/groovy/pt/ulisboa/tecnico/socialsoftware/tutor/administration/service/CreateExternalCourseExecutionServiceSpockTest.groovy#L39)
-    + [Insuccess test #0](https://github.com/socialsoftware/quizzes-tutor/blob/31ba9bd5f5ddcbab61f1c4b2daca7331ad099f98/backend/src/test/groovy/pt/ulisboa/tecnico/socialsoftware/tutor/administration/service/CreateExternalCourseExecutionServiceSpockTest.groovy#L104)
-    + [Tests for invalid input](https://github.com/socialsoftware/quizzes-tutor/blob/31ba9bd5f5ddcbab61f1c4b2daca7331ad099f98/backend/src/test/groovy/pt/ulisboa/tecnico/socialsoftware/tutor/administration/service/CreateExternalCourseExecutionServiceSpockTest.groovy#L145)
-
-
-### Test Coverage Screenshot
-
-The screenshot includes the test coverage results associated with the new/changed entities:
